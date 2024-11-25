@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Typing Recovery</title>
+    <style>
+      body {
+        min-width: 200px;
+        padding: 10px;
+        font-family: Arial, sans-serif;
+      }
+      #recoverBtn {
+        width: 100%;
+        padding: 10px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      #recoverBtn:hover {
+        background-color: #45a049;
+      }
+      #status {
+        margin-top: 10px;
+        font-size: 14px;
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="recoverBtn">Recover Typed Text</button>
+    <div id="status"></div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
