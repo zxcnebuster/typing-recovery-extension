@@ -90,3 +90,16 @@ git push origin feature/YourFeatureName
 ```
 
 **Open a Pull Request:** Navigate to the original repository on GitHub. Click "Compare & pull request." Provide a clear description of your changes and submit the pull request.
+
+
+📈 **Version**
+
+**Current Version: 1.0.0**
+Release Date: 25.11.2024
+🛠️ **Changelog**
+**1.0.0**
+* Initial release with core functionalities:
+* Automatic text capture outside input fields.
+* One-click recovery of typed text to clipboard.
+* Secure local storage of captured text.
+* User-friendly interface and lightweight performance.
